@@ -1,0 +1,67 @@
+ body {background-color: white;}
+ h1 {
+   color: grey;
+   font-family: Impact, Charcoal, sans-serif;
+   font-weight: normal;
+   font-size: 24px;
+   margin: 10px;
+ }
+ h2 {
+   color: grey;
+   font-family: Impact, Charcoal, sans-serif;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 10px;
+   border-bottom: 2px solid grey;
+ }
+
+ p {
+   color: black;
+   font-family: Impact, Charcoal, sans-serif;
+   margin: 10px;
+ }
+u {
+  text-decoration: none;
+  border-bottom: 2px solid grey;
+}​
+
+ hr.nameline {
+   border-top: 1px solid grey;
+ }
+
+.wrapper{
+  background-color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin: auto;
+}
+
+ .top {
+   background-color: white;
+   margin: auto;
+   width: 266px;
+   /* display: flex;
+   flex-direction: column; */
+ }
+
+.name{
+  background-color: pink;
+  max-width: 100%;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  /* overflow: scroll */
+}
+
+.bottom{
+  padding-top: 0px;
+  padding-left: 20px;
+}
