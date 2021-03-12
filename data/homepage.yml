@@ -1,0 +1,233 @@
+# homepage
+homepage:
+  head:
+    title: "Yue Linn Chong"
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I'm Yue Linn."
+  subtitle: "Robotics Researcher"
+  description: " I believe intelligent robots are pivotal in solving global problems. I am a Master of Engineering graduate with experience in deep learning, software engineering, mechanical design and fabrication, and electronics.<br/><br/> I am currently running my own research on using intelligent robots to solve real-world problems. My main focus is in controls and perception for swarm robots in field applications such as agriculture."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase_linn_half.png"
+    _2x: "img/showcase/showcase_linn.jpg"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase_linn_half.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact/"
+
+  #socialLinks:
+  #  - icon: "github"
+  #    URL: "https://github.com/yuelinn"
+
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+  I was born in 1993, to a Peranakan Chinese family in Malaysia.
+  When I am not building robots, I like listening to Engineering-related podcasts and bead weaving. 
+  My first language is English but I am also fluent in Bahasa Malaysia (Malay). I can also speak in Mandarin.
+  <br/><br/>
+  I am currently working towards using robotics in combatting global warming and ensuring food security.
+    </p>'
+  button:
+    btnText: "Current work"
+    URL: "https://the-pj29-lab.onrender.com/"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "National University of Singapore (NUS)"
+      year: "2020-2018"
+      degree: "Master of Engineering (MEng), Mechanical Engineering"
+
+    - university: "National University of Singapore (NUS)"
+      year: "2013-2017"
+      degree: "Bachelor of Engineering (BEng), Mechanical Engineering;
+        Minor in Computer Science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I have more than 3 years of experience working on autonomous robotics research for real-world applications. I have also been involved in robotics research such as autonomous inspection systems, UAVs, and surgical soft robots during my undergraduate studies."
+  button:
+    icon: "icon-profile-fill"
+    btnText: "Dowload my Resume"
+    URL: "https://raw.githubusercontent.com/yuelinn/yuelinn.github.io/master/docs/Chong%20Yue%20Linn%20short%20resume%202020.pdf"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Full CV"
+    URL: "https://raw.githubusercontent.com/yuelinn/yuelinn.github.io/master/docs/Yue%20Linn%20Chong%20full%20resume%202020.pdf"
+
+  items:
+    - title: "Research Engineer"
+      company: "National University of Singapore (NUS)"
+      duration: "Sep 2017 - Jan 2021"
+
+    - title: "Full-time Intern"
+      company: "HOPE Technik Pte Ltd"
+      duration: "May 2015 - Jul 2015"
+
+    - title: "Part-time Intern"
+      company: "NUS in collaboration with National University Hospital (NUH)"
+      duration: "Jul 2014 - Sept 2014"
+
+skills:
+  enable: true
+  items:
+  - title: "ROS"
+    image: "img/skills/ros.png"
+    URL: ""
+  - title: "Tensorflow"
+    image: "img/skills/tf.svg"
+    URL: ""
+  - title: "OpenCV"
+    image: "img/skills/opencv.png"
+    URL: ""
+  - title: "CUDA"
+    image: "img/skills/cuda.jpeg"
+    URL: ""
+  - title: "Git"
+    image: "img/skills/git.png"
+    URL: ""
+  - title: "C++"
+    image: "img/skills/cpp.png"
+    URL: ""
+  - title: "Python"
+    image: "img/skills/python.png"
+    URL: ""
+  - title: "Matlab"
+    image: "img/skills/matlab.png"
+    URL: ""
+  - title: "Arduino"
+    image: "img/skills/arduino.png"
+    URL: ""
+  - title: "Raspberry Pi"
+    image: "img/skills/pi.webp"
+    URL: ""
+  - title: "Solidworks (CAD)"
+    image: "img/skills/solidworks.bmp"
+    URL: ""
+  - title: "Autodesk Inventor (CAD)"
+    image: "img/skills/inventor.jpeg"
+    URL: ""
+
+# Client & Work
+projects:
+  title: "Projects"
+  enable: true
+
+  works:
+    - title: "The PJ 29 Lab"
+      description: "This garage lab research and develops intelligent robotics to solve real-world problems such as combating climate change."
+      URL: "https://the-pj29-lab.onrender.com/"
+      image: "img/showcase/showcase_linn_half.png"
+
+    - title: "Autonomous Bus Project"
+      description: "I was the lead of the perception team that developed and implemented the software stack for detection, classification, tracking, and trajectory prediction of dynamic obstacles for a self-driving bus."
+      image: "img/projects/AVbus1.jpeg"
+      URL: "bus/"
+
+    - title: "Donkeycar @ NUS"
+      description: "This project introduced high school students to the field of robotics through hands-on learning of electronics, Python, and Deep Learning."
+      image: "img/projects/donkey-car-graphic_orig.jpg"
+      URL: "donkeycar/"
+
+    - title: "Autonomous Underground Train Tracks Inspection Robot"
+      description: "This robot performed safety inspections of tunnels and tracks for underground trains."
+      image: "img/projects/mrt_cad.jpg"
+      URL: "mrt/"
+
+    - title: "The Hydrone Project"
+      description: "Hydrone is a UAV developed for water environments by a team of multidisciplinary students in NUS."
+      image: "img/projects/hydrone/hydrone_cad_p5.jpg"
+      URL: "hydrone/"
+      
+    - title: "Soft Robotics Catheter"
+      description: "This project aimed to develop an automated catheter to assist surgeons during non-invasive surgeries such as heart operations."
+      image: "img/projects/catheter/straight_cropped.png"
+      URL: "soft/"
+
+    - title: "Engineering Good Student Chapter (Technology Development Programme)"
+      description: "A system for wheelchairs to overcome the stairs in front of older public housing flats."
+      image: "img/projects/wheelchair.png"
+      URL: "egsc/"
+
+    - title: "HackUST (HKUST Hackathon)"
+      description: "Solving the excessive queuing problem at female toilets with screen displays indicating queues at nearby toilets."
+      image: "img/projects/f3.PNG"
+      URL: "hackust/"
+
+    - title: "Electric Bicycle Generator Exhibition"
+      description: "A multidisciplinary team of undergraduate and postgraduate students to simulate electricity generation from exercise bicycles."
+      image: "img/projects/ebike_small.JPG"
+      URL: "ebike/"
+
+    - title: "Redbull Land Rover"
+      description: "This project retrofited a land rover for mobile DJ performances by incorporating a stage and other performance equipment."
+      image: "img/projects/redbull_cropped.png"
+      URL: "redbull/"
+
+    - title: "Concrete Air Cannon"
+      description: "This is a pressurised air cannon for stress-testing concrete blocks."
+      image: "img/projects/airgun.PNG"
+      URL: "cannon"
+
+    - title: "Project Nancy"
+      description: "Minimalist user interface on laptops that are designed for elderly users."
+      image: "img/projects/project_nancy.png"
+      URL: "nancy/"
+
+    - title: "Adipose Stem Cells Harvesting"
+      description: "This project aimed to assist scientists by automating the stem cell preparation prior to extraction"
+      image: "img/projects/adipose2/Gear Assembly.iam.png"
+      URL: "adipose/"
+
+    - title: "HEAL Hackathon"
+      description: "An intuitive user interface for data entry and analysis during post disaster relief efforts for Save the Children."
+      image: "img/projects/excel_vba.webp"
+      URL: "heal/"
+
+# TODO: publications
+publications:
+  title: "Publications"
+  enable: true
+  works:
+    - cite: "Yue Linn Chong, Huiyu Leong, Christina Dao Wen Lee, and Marcelo H. Ang, Jr. \"Benchmarking Sensing and Motion Planning Algorithms for Autonomous Driving\" presented at the IROS 2020 Workshop."
+    - cite: "Yue Linn Chong, Christina Dao Wen Lee, Liushifeng Chen, Chongjiang Shen, Marcelo H. Ang Jr, Ken Kok Hoe Chan. \"Perception Pipeline Implementation on NVIDIA Drive PX2 and NVIDIA Drive AGX Xavier\", will be presented at the Nvidia GPU Technology Conference (GTC) in April 2021."
+    - cite: "Zhikai Li, Krittin Kawkeeree, Yue Linn Chong, Christina Dao Wen Lee and Marcelo Ang. \"ALOT: Augmented Localization with Obstacle Tracking\", submitted to 16th International Conference on Intelligent Autonomous System (IAS-16) (Under Review)"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number (Whatsapp)"
+    number: "+65 9658 9019"
+  email:
+    title: "Email"
+    email: '<a href="mailto:yuelinnchong@gmail.com">yuelinnchong@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Jalan PJ 29,<br />75050 Melaka,<br/>Malaysia."
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
