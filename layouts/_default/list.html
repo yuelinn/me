@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{ partial "head.html" . }}
+		{{ partial "head_custom.html" . }}
+	</head>
+	<body>
+		<h1>{{ .Title }}</h1>
+		{{ .Content }}
+	</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<style>
+
+.content-div{
+	padding-top: 90px;
+	padding-right: 15%;
+	padding-bottom: 50px;
+	padding-left: 15%;
+  	color: #333;
+	font-weight: 300;
+}
+
+div.content-div ul{
+	margin-bottom: 50px;
+}
+div.content-div p {
+}
+
+div.content-div a:link{
+	font-weight: 600;
+	color: black;
+	text-decoration: underline;
+}
+
+div.content-div a:visited{
+	font-weight: 600;
+	color: black;
+	text-decoration: underline;
+}
+
+div.content-div a:hover{
+	font-weight: 600;
+	color: #555;
+	text-decoration: underline;
+}
+
+div.content-div ul a:link{
+	font-weight: 600;
+	color: black;
+	text-decoration: underline;
+}
+
+div.content-div ul a:visited{
+	font-weight: 600;
+	color: black;
+	text-decoration: underline;
+}
+
+div.content-div ul a:hover{
+	color:#555;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.img_center{
+	text-align: center;
+}
+.img_float{
+	float: right;
+	text-align: center;
+}
+
+</style>
+<html>
+	<head>
+		{{ partial "head.html" . }}
+		{{ partial "head_custom.html" . }}
+	</head>
+	<body>
+		<div>
+			{{ partial "header.html" . }}
+		</div>
+
+		<div class="content-div">
+			<h1>{{ .Title }}</h1>
+			&nbsp;
+			<p>
+			{{ .Content }}
+			</p>
+		</div>
+
+		{{ partial "footer.html" . }}
+		{{ partial "base-foot.html" . }}
+
+	</body>
+</html>
