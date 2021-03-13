@@ -214,7 +214,7 @@ contact:
   title: "Contact"
   form:
     method: "POST"
-    action: "#"
+    action: "https://getform.io/f/4a2383d5-e5cb-4a9b-aad6-377351276c76"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
