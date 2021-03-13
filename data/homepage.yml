@@ -135,7 +135,7 @@ projects:
       image: "img/projects/bnw_rhex.png"
 
     - title: "Autonomous Bus Project"
-      description: "I was the lead of the perception team that developed and implemented the software stack for detection, classification, tracking, and trajectory prediction of dynamic obstacles for a self-driving bus."
+      description: "I was the lead of the perception team that developed the software for detection, classification, tracking, and trajectory prediction of dynamic obstacles for a self-driving bus."
       image: "img/projects/AVbus1.jpeg"
       URL: "bus/"
 
@@ -159,8 +159,8 @@ projects:
       image: "img/projects/catheter/straight_cropped.png"
       URL: "soft/"
 
-    - title: "Engineering Good Student Chapter (Technology Development Programme)"
-      description: "A system for wheelchairs to overcome the stairs in front of older public housing flats."
+    - title: "Engineering Good Student Chapter"
+      description: "Under the Technology Development Programme, we developed a system for wheelchairs to overcome the stairs in front of older public housing flats."
       image: "img/projects/wheelchair.png"
       URL: "egsc/"
 

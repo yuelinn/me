@@ -21,11 +21,23 @@
   clear: both;
 }
 
+/* Add some padding inside the card container */
+.grid-container {
+  padding: 2px 110px;
+}
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column  {
     width: 50%;
+    height: 600px;
+    padding:10px;
   }
+
+  .grid-container {
+  padding: 2px 50px;
+}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -33,6 +45,9 @@
   .column  {
     width: 100%;
   }
+  .grid-container {
+  padding: 2px;
+}
 }
 
 .card {
@@ -57,11 +72,6 @@
     left: 10;
 }
 */
-/* Add some padding inside the card container */
-.grid-container {
-  padding: 2px 110px;
-}
-
 .card_img{
   display: block;
   max-width:100%-20px;
