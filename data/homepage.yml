@@ -132,7 +132,7 @@ projects:
     - title: "The PJ 29 Lab"
       description: "This garage lab research and develops intelligent robotics to solve real-world problems such as combating climate change."
       URL: "https://the-pj29-lab.onrender.com/"
-      image: "img/showcase/showcase_linn_half.png"
+      image: "img/projects/bnw_rhex.png"
 
     - title: "Autonomous Bus Project"
       description: "I was the lead of the perception team that developed and implemented the software stack for detection, classification, tracking, and trajectory prediction of dynamic obstacles for a self-driving bus."
