@@ -196,7 +196,7 @@ projects:
 
     - title: "HEAL Hackathon"
       description: "An intuitive user interface for data entry and analysis during post disaster relief efforts for Save the Children."
-      image: "img/projects/excel_vba.webp"
+      image: "img/projects/excel_vba.png"
       URL: "heal/"
 
 # TODO: publications
