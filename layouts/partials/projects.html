@@ -1,0 +1,102 @@
+{{ if .Site.Data.homepage.projects.enable }}
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  height: 500px;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+  /*transition: 0.3s;*/
+  width: 100%;
+  height: 100%;
+  background-color:#fff;
+  border-color: #d0dfd2;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color:#d0dfd2;
+}
+
+/*.card  span {
+    position: relative;
+    bottom: 0;
+    left: 10;
+}
+*/
+/* Add some padding inside the card container */
+.grid-container {
+  padding: 2px 110px;
+}
+
+.card_img{
+  display: block;
+  max-width:100%-20px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+
+
+</style>
+
+
+<section id="portfolio" class="section section--border-bottom">
+
+    <div class="grid-container">
+	    <h2 class=" rad-animation-group rad-fade-down">
+	    	{{ .Site.Data.homepage.projects.title }}
+	    </h2>
+
+    	<div class="row">
+	    	{{ range .Site.Data.homepage.projects.works }}
+
+	  	    <div class="column"  onclick="window.open({{.URL}})">
+				<div class="card">
+					<img src="{{.image}}" alt="img/showcase/showcase_linn_half.png" class="card_img">
+				  	<div class="container">
+				  		<span>
+					    	<h4><b> {{ .title }}</b></h4>
+					    	<p>{{ .description }}</p> 
+				        </span>
+				  	</div>
+				</div> 
+		    </div>
+            {{ end }}
+    	</div>
+    </div>
+</section>
+{{ end }}

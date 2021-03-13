@@ -1,0 +1,41 @@
+{{ if .Site.Data.homepage.skills.enable }}
+
+<style>
+.img-center{
+text-align: center;
+
+}
+</style>
+
+<section id="skills" class="section section--border-bottom">
+	<div class="container">
+		<h2 class=" rad-animation-group rad-fade-down">
+		    	Skills
+	    </h2>
+	    <br>
+
+	    <div class="img-center">
+	    {{ range .Site.Data.homepage.skills.items }}
+
+
+	    <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="{{ .image | absURL }}"
+                alt="{{ .title }}"
+	            height="60px"
+
+        />
+	    
+	    &nbsp;
+        &nbsp;
+
+        {{end}}
+
+        </div>
+
+
+	</div>
+</section>
+
+{{end}}
