@@ -19,7 +19,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "#contact/"
+    URL: "https://yuelinn-v2.onrender.com/#contact"
 
   #socialLinks:
   #  - icon: "github"
