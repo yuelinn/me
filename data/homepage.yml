@@ -64,11 +64,11 @@ experience:
   button:
     icon: "icon-profile-fill"
     btnText: "Dowload my Resume"
-    URL: "https://raw.githubusercontent.com/yuelinn/yuelinn.github.io/master/docs/Chong%20Yue%20Linn%20short%20resume%202020.pdf"
+    URL: "https://docs.google.com/document/d/e/2PACX-1vRVd5YHpDupBFueuVsmtzijlTkxrU7VMOnWjeyQYlsom8M6kV9dz6PWWzLtnmX9ZQF2euwtP_pUg0Hf/pub"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Full CV"
-    URL: "https://raw.githubusercontent.com/yuelinn/yuelinn.github.io/master/docs/Yue%20Linn%20Chong%20full%20resume%202020.pdf"
+    URL: "https://docs.google.com/document/d/e/2PACX-1vTZBmBOQae-8KM349BCjiWVYGH4KYyTFn-VsL19wx_fM9fch4FIygannR-LnqoHbDQoSOAGjtJVrzAX/pub"
 
   items:
     - title: "Research Engineer"
