@@ -68,7 +68,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Full CV"
-    URL: "https://docs.google.com/document/d/e/2PACX-1vTZBmBOQae-8KM349BCjiWVYGH4KYyTFn-VsL19wx_fM9fch4FIygannR-LnqoHbDQoSOAGjtJVrzAX/pub"
+    URL: "resumes/Yue Linn Chong full resume 2021.pdf"
 
   items:
     - title: "Research Engineer"
