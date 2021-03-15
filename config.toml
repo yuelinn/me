@@ -1,4 +1,4 @@
-baseURL = "https://yuelinn-v2.onrender.com"
+baseURL = "https://yuelinn.github.io"
 languageCode = "en-us"
 title = "Yue Linn's personal site"
 theme="raditian-free-hugo-theme"
