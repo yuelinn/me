@@ -29,7 +29,7 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-  I was born in 1993, to a Peranakan Chinese family in Malaysia.
+  I was born in 1993, to a <a href="https://en.wikipedia.org/wiki/Peranakans"> Peranakan Chinese </a> family in Malaysia.
   When I am not building robots, I like listening to Engineering-related podcasts and bead weaving. 
   My first language is English but I am also fluent in Bahasa Malaysia (Malay). I can also speak some Mandarin.
   <br/><br/>
@@ -130,72 +130,72 @@ projects:
 
   works:
     - title: "The PJ 29 Lab"
-      description: "This garage lab research and develops intelligent robotics to solve real-world problems such as combating climate change."
+      description: "This garage lab research and develops intelligent robotics to solve real-world problems such as combating climate change. Click here for more info."
       URL: "https://the-pj29-lab.onrender.com/"
       image: "img/projects/bnw_rhex.png"
 
     - title: "Autonomous Bus Project"
-      description: "I was the lead of the perception team that developed the software for detection, classification, tracking, and trajectory prediction of dynamic obstacles for a self-driving bus."
+      description: "I was the lead of the perception team that developed the software for detection, classification, tracking, and trajectory prediction of dynamic obstacles for a self-driving bus. Click here for more info."
       image: "img/projects/AVbus1.jpeg"
       URL: "bus/"
 
     - title: "Donkeycar @ NUS"
-      description: "This project introduced high school students to the field of robotics through hands-on learning of electronics, Python, and Deep Learning."
+      description: "This project introduced high school students to the field of robotics through hands-on learning of electronics, Python, and Deep Learning. Click here for more info."
       image: "img/projects/donkey-car-graphic_orig.jpg"
       URL: "donkeycar/"
 
     - title: "Autonomous Underground Train Tracks Inspection Robot"
-      description: "This robot performed safety inspections of tunnels and tracks for underground trains."
+      description: "This robot performed safety inspections of tunnels and tracks for underground trains. Click here for more info."
       image: "img/projects/mrt_cad.jpg"
       URL: "mrt/"
 
     - title: "The Hydrone Project"
-      description: "Hydrone is a UAV developed for water environments by a team of multidisciplinary students in NUS."
+      description: "Hydrone is a UAV developed for water environments by a team of multidisciplinary students in NUS. Click here for more info."
       image: "img/projects/hydrone/hydrone_cad_p5.jpg"
       URL: "hydrone/"
       
     - title: "Soft Robotics Catheter"
-      description: "This project aimed to develop an automated catheter to assist surgeons during non-invasive surgeries such as heart operations."
+      description: "This project aimed to develop an automated catheter to assist surgeons during non-invasive surgeries such as heart operations. Click here for more info."
       image: "img/projects/catheter/straight_cropped.png"
       URL: "soft/"
 
     - title: "Engineering Good Student Chapter"
-      description: "Under the Technology Development Programme, we developed a system for wheelchairs to overcome the stairs in front of older public housing flats."
+      description: "Under the Technology Development Programme, we developed a system for wheelchairs to overcome the short flight of steps. Click here for more info."
       image: "img/projects/wheelchair.png"
       URL: "egsc/"
 
     - title: "HackUST (HKUST Hackathon)"
-      description: "Solving the excessive queuing problem at female toilets with screen displays indicating queues at nearby toilets."
+      description: "Solving the excessive queuing problem at female toilets with screen displays indicating queues at nearby toilets. Click here for more info."
       image: "img/projects/f3.PNG"
       URL: "hackust/"
 
     - title: "Electric Bicycle Generator Exhibition"
-      description: "A multidisciplinary team of undergraduate and postgraduate students to simulate electricity generation from exercise bicycles."
+      description: "A multidisciplinary team of undergraduate and postgraduate students to simulate electricity generation from exercise bicycles. Click here for more info."
       image: "img/projects/ebike_small.JPG"
       URL: "ebike/"
 
     - title: "Redbull Land Rover"
-      description: "This project retrofited a land rover for mobile DJ performances by incorporating a stage and other performance equipment."
+      description: "This project retrofited a land rover for mobile DJ performances by incorporating a stage and other performance equipment. Click here for more info."
       image: "img/projects/redbull_cropped.png"
       URL: "redbull/"
 
     - title: "Concrete Air Cannon"
-      description: "This is a pressurised air cannon for stress-testing concrete blocks."
+      description: "This is a pressurised air cannon for stress-testing concrete blocks. Click here for more info."
       image: "img/projects/airgun.PNG"
       URL: "cannon"
 
     - title: "Project Nancy"
-      description: "Minimalist user interface on laptops that are designed for elderly users."
+      description: "Minimalist user interface on laptops that are designed for elderly users. Click here for more info."
       image: "img/projects/project_nancy.png"
       URL: "nancy/"
 
     - title: "Adipose Stem Cells Harvesting"
-      description: "This project aimed to assist scientists by automating the stem cell preparation prior to extraction"
+      description: "This project aimed to assist scientists by automating the stem cell preparation prior to extraction. Click here for more info."
       image: "img/projects/adipose2/Gear Assembly.iam.png"
       URL: "adipose/"
 
     - title: "HEAL Hackathon"
-      description: "An intuitive user interface for data entry and analysis during post disaster relief efforts for Save the Children."
+      description: "An intuitive user interface for data entry and analysis during post disaster relief efforts for Save the Children. Click here for more info."
       image: "img/projects/excel_vba.png"
       URL: "heal/"
 
