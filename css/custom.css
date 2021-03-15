@@ -1,0 +1,25 @@
+/* You can customize theme styles here */
+
+
+.yl-name{
+	color:#fa8708;
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.yl-name:hover{
+	color:#98c06a;
+}
+
+/* LESS */
+.nav-link-orange{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#98c06a;
+	padding-right: 18px
+}
+
+.nav-link-orange:hover{
+	color:#fa8708;
+}
