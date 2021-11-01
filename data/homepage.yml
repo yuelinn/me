@@ -7,7 +7,7 @@ showcase:
   enable: true
   title: "Hi, I'm Yue Linn."
   subtitle: "Robotics Researcher"
-  description: " I believe intelligent robots are pivotal in solving global problems. I am a Master of Engineering graduate with experience in deep learning, software engineering, mechanical design and fabrication, and electronics.<br/><br/> I am currently running my own research on using intelligent robots to solve real-world problems. My main focus is in controls and perception for swarm robots in field applications such as agriculture."
+  description: " I believe intelligent robots are pivotal in solving global problems. I have experience in deep learning, software engineering, mechanical design and fabrication, and electronics.<br/><br/> I am currently pursuing a PhD at the University of Bonn. My main focus is in perception for robots in field applications such as agriculture."
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase_linn_half.png"
@@ -30,10 +30,10 @@ about:
   title: "Who am I?"
   content: '<p class="lead">
   I was born in 1993, to a <a href="https://en.wikipedia.org/wiki/Peranakans"> Peranakan Chinese </a> family in Malaysia.
-  When I am not building robots, I like listening to Engineering-related podcasts and bead weaving. 
+  When I am not developing code or building robots, I like listening to Engineering-related podcasts and bead weaving. 
   My first language is English but I am also fluent in Bahasa Malaysia (Malay). I can also speak some Mandarin.
   <br/><br/>
-  I am currently working towards using robotics in combatting global warming and ensuring food security and am in the process of applying for PhD.
+  I am currently pursing a PhD on plant classification systems for agricultural robots.
     </p>'
   button:
     btnText: "Current work"
@@ -47,6 +47,9 @@ education:
   enable: true
   title: "Education"
   items:
+    - university: "University of Bonn (Rheinische Friedrich-Wilhelms-Universität)"
+      year: "2021-present"
+      degree: "[IN PROGRESS] Geodäsie und Geoinformation, Dr.-Ing"
     - university: "National University of Singapore (NUS)"
       year: "2018-2020"
       degree: "Master of Engineering (MEng), Mechanical Engineering"
@@ -218,15 +221,9 @@ contact:
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
-  phone:
-    title: "Phone Number (Whatsapp)"
-    number: "+65 9658 9019"
   email:
     title: "Email"
     email: '<a href="mailto:yuelinnchong@gmail.com">yuelinnchong@gmail.com</a>'
-  address:
-    title: "Address"
-    address: "Jalan PJ 29,<br />75050 Melaka,<br/>Malaysia."
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
