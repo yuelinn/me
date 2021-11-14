@@ -208,8 +208,8 @@ publications:
   enable: true
   works:
     - cite: "Yue Linn Chong, Huiyu Leong, Christina Dao Wen Lee, and Marcelo H. Ang, Jr. \"Benchmarking Sensing and Motion Planning Algorithms for Autonomous Driving\" presented at the IROS 2020 Workshop."
-    - cite: "Yue Linn Chong, Christina Dao Wen Lee, Liushifeng Chen, Chongjiang Shen, Marcelo H. Ang Jr, Ken Kok Hoe Chan. \"Perception Pipeline Implementation on NVIDIA Drive PX2 and NVIDIA Drive AGX Xavier\", will be presented at the Nvidia GPU Technology Conference (GTC) in April 2021."
-    - cite: "Zhikai Li, Krittin Kawkeeree, Yue Linn Chong, Christina Dao Wen Lee and Marcelo Ang. \"ALOT: Augmented Localization with Obstacle Tracking\", submitted to 16th International Conference on Intelligent Autonomous System (IAS-16) (Under Review)"
+    - cite: "Yue Linn Chong, Christina Dao Wen Lee, Liushifeng Chen, Chongjiang Shen, Marcelo H. Ang Jr, Ken Kok Hoe Chan. \"Perception Pipeline Implementation on NVIDIA Drive PX2 and NVIDIA Drive AGX Xavier\" presented at the Nvidia GPU Technology Conference (GTC) 2021."
+    - cite: "Zhikai Li, Krittin Kawkeeree, Yue Linn Chong, Christina Dao Wen Lee and Marcelo Ang. \"ALOT: Augmented Localization with Obstacle Tracking\", presented at the 16th International Conference on Intelligent Autonomous System (IAS-16)"
 
 # contact
 contact:
