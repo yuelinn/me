@@ -7,7 +7,7 @@ showcase:
   enable: true
   title: "Hi, I'm Yue Linn."
   subtitle: "Robotics Researcher"
-  description: " I believe intelligent robots are pivotal in solving global problems. I have experience in deep learning, software engineering, mechanical design and fabrication, and electronics.<br/><br/> I am currently pursuing a PhD at the University of Bonn. My main focus is in perception for robots in field applications such as agriculture."
+  description: " I believe intelligent robots are pivotal in solving global problems. I have experience in deep learning, software engineering, mechanical design and fabrication, and electronics. My research interest is in perception for robots in field applications such as agriculture. I am currently pursuing a PhD at the University of Bonn."
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase_linn_half.png"
