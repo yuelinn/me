@@ -20,7 +20,7 @@
 
 	var fs = require("fs");
 	var textArray = fs.readFileSync("words_list.txt", "utf-8");
-	document.getElementById("data").innerHTML = textArray[0];
+	document.getElementById("data").innerHTML = textArray[2];
 
 	function myFunction() {
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
