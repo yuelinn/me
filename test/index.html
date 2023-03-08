@@ -9,7 +9,7 @@
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
 	<p id="data"></p>
- <div><object data="words_list.txt"></object></div>
+	<!-- <div><object data="words_list.txt"></object></div> -->
 	<script>
 	var textArray1 = [
 	    'word1',
@@ -20,12 +20,12 @@
 
 	var fs = require("fs");
 	var textArray = fs.readFileSync("words_list.txt", "utf-8");
-fs.readFile('words_list.txt', (err, data) => {
-    if (err) throw err;
- 
-    console.log(data.toString());
+	document.getElementById("data").innerHTML = textArray[0];
+
+	fs.readFile('words_list.txt', (err, data) => {
+	    if (err) throw err;
 	  document.getElementById("data").innerHTML = data.toString();
-})
+	})
 	function myFunction() {
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
 	  document.getElementById("demo").innerHTML = textArray[randomNumber];
