@@ -5,7 +5,7 @@
     </head>
     <body>
         <p>Click the button below to choose a random keyword. </p>
-        <p>test. </p>
+        <p>test2. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
 	<script>
@@ -18,7 +18,11 @@
 
 	var fs = require("fs");
 	var textArray = fs.readFileSync("./words_list.txt", "utf-8");
-
+fs.readFile('words_list.txt', (err, data) => {
+    if (err) throw err;
+ 
+    console.log(data.toString());
+})
 	function myFunction() {
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
 	  document.getElementById("demo").innerHTML = textArray[randomNumber];
