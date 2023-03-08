@@ -5,6 +5,13 @@
     </head>
     <body>
         <p>This is</p>
-        <button type="button">Click Me!</button> 
+	<button onclick="myFunction()">Click me</button>
+	<p id="demo"></p>
+
+	<script>
+	function myFunction() {
+	  document.getElementById("demo").innerHTML = "Hello World";
+	}
+	</script>
     </body>
 </html>
