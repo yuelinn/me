@@ -8,6 +8,7 @@
         <p>test2. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
+	<p id="data"></p>
 	<script>
 	var textArray1 = [
 	    'word1',
@@ -22,6 +23,7 @@ fs.readFile('words_list.txt', (err, data) => {
     if (err) throw err;
  
     console.log(data.toString());
+	  document.getElementById("data").innerHTML = textArray[randomNumber];
 })
 	function myFunction() {
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
