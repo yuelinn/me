@@ -5,7 +5,7 @@
     </head>
     <body>
         <p>Click the button below to choose a random keyword. </p>
-        <p>test23455. </p>
+        <p>test234557. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
 	<p id="data"></p>
@@ -18,9 +18,20 @@
 	    'word4'
 	];
 
-	var fs = require("fs");
-	var textArray = fs.readFileSync("words_list.txt", "utf-8");
-	document.getElementById("data").innerHTML = textArray;
+	function getAsText()
+	{
+		var reader;
+		try
+		{
+		    reader = new FileReader();
+		}catch(e)
+		{
+			document.getElementById('data').innerHTML = 
+			"Error: seems File API is not supported on your browser";
+			  return;
+  		}
+	reader.readAsText("words_list.txt", "UTF-8");
+	}
 
 	function myFunction() {
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
