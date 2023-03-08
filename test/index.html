@@ -5,7 +5,7 @@
     </head>
     <body>
         <p>Click the button below to choose a random keyword. </p>
-        <p>test234557. </p>
+        <p>test2345578. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
 	<p id="data"></p>
@@ -31,6 +31,9 @@
 			  return;
   		}
 	reader.readAsText("words_list.txt", "UTF-8");
+	reader.onload = function() {
+		document.getElementById('data').innerHTML = "hi";
+	  };
 	}
 
 	function myFunction() {
