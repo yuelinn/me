@@ -7,19 +7,20 @@
         <p>Click the button below to choose a random keyword. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
-<script>
-var textArray = [
-    'word1',
-    'word2',
-    'word3',
-    'word4'
-];
+	<script>
+	var textArray1 = [
+	    'word1',
+	    'word2',
+	    'word3',
+	    'word4'
+	];
 
+	var textArray = fs.readFileSync("./words_list.txt", "utf-8");
 
-function myFunction() {
-  var randomNumber = Math.floor(Math.random()*textArray.length);
-  document.getElementById("demo").innerHTML = textArray[randomNumber];
-}
-</script>
+	function myFunction() {
+	  var randomNumber = Math.floor(Math.random()*textArray.length);
+	  document.getElementById("demo").innerHTML = textArray[randomNumber];
+	}
+	</script>
     </body>
 </html>
