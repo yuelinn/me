@@ -22,10 +22,6 @@
 	var textArray = fs.readFileSync("words_list.txt", "utf-8");
 	document.getElementById("data").innerHTML = textArray[0];
 
-	fs.readFile('words_list.txt', (err, data) => {
-	    if (err) throw err;
-	  document.getElementById("data").innerHTML = data.toString();
-	})
 	function myFunction() {
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
 	  document.getElementById("demo").innerHTML = textArray[randomNumber];
