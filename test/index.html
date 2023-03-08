@@ -5,13 +5,11 @@
     </head>
     <body>
         <p>Click the button below to choose a random keyword. </p>
-        <p>test23455788. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
-	<p id="data"></p>
 	<!-- <div><object data="words_list.txt"></object></div> -->
 	<script>
-	var textArray1 = [
+	var textArray = [
 	    'word1',
 	    'word2',
 	    'word3',
@@ -37,7 +35,6 @@
 	}
 
 	function myFunction() {
-	  getAsText()
 	  var randomNumber = Math.floor(Math.random()*textArray.length);
 	  document.getElementById("demo").innerHTML = textArray[randomNumber];
 	}
