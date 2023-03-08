@@ -4,14 +4,22 @@
         <title>Simple Word Picker</title>
     </head>
     <body>
-        <p>This is</p>
+        <p>Click the button below to choose a random keyword. </p>
 	<button onclick="myFunction()">Click me</button>
 	<p id="demo"></p>
+<script>
+var textArray = [
+    'word1',
+    'word2',
+    'word3',
+    'word4'
+];
 
-	<script>
-	function myFunction() {
-	  document.getElementById("demo").innerHTML = "Hello World";
-	}
-	</script>
+
+function myFunction() {
+  var randomNumber = Math.floor(Math.random()*textArray.length);
+  document.getElementById("demo").innerHTML = textArray[randomNumber];
+}
+</script>
     </body>
 </html>
